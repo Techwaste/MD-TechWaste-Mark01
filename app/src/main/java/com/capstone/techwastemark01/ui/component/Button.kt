@@ -18,10 +18,11 @@ import com.capstone.techwastemark01.ui.theme.TechWasteMark01Theme
 @Composable
 fun DefaultButton(
     modifier: Modifier = Modifier,
-    contentText: String = "Button"
+    contentText: String = "Button",
+    onClick: () -> Unit
 ) {
     Button(
-        onClick = {},
+        onClick = onClick,
         modifier = modifier
             .fillMaxWidth()
             .height(56.dp),
@@ -48,7 +49,7 @@ fun DefaultButtonPreview() {
                 .background(MaterialTheme.colorScheme.background)
                 .padding(20.dp)
         ) {
-            DefaultButton()
+            DefaultButton {}
         }
     }
 }

@@ -7,9 +7,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.capstone.techwastemark01.ui.screen.HomeScreen
+import com.capstone.techwastemark01.ui.screen.home.HomeScreen
+import com.capstone.techwastemark01.ui.screen.login.LoginScreen
 import com.capstone.techwastemark01.ui.theme.TechWasteMark01Theme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

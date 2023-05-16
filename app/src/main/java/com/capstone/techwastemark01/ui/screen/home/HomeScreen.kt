@@ -1,4 +1,4 @@
-package com.capstone.techwastemark01.ui.screen
+package com.capstone.techwastemark01.ui.screen.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
